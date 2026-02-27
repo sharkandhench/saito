@@ -1,0 +1,135 @@
+/* ===========================
+   サイト - base styles
+   =========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+    color: #2c2c2c;
+    background-color: #fafaf8;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+/* --- Navigation --- */
+nav {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    color: #111;
+}
+
+nav a.active {
+    color: #111;
+    font-weight: 600;
+}
+
+/* --- Headings --- */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+}
+
+/* --- Text --- */
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #2a5aa7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- Lists --- */
+ul, ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.4rem;
+}
+
+/* --- Tables --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+}
+
+th, td {
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background-color: #f0f0ee;
+    font-weight: 600;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f7f7f5;
+}
+
+/* --- Utility --- */
+.subtitle {
+    color: #777;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.note {
+    background-color: #f0f0ee;
+    border-left: 3px solid #aaa;
+    padding: 0.8rem 1rem;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.updated {
+    color: #999;
+    font-size: 0.85rem;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
